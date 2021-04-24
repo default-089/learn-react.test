@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Fcomponent />
-        <Ccomponent />
+        <Fcomponent name="Andrey" />
+        <Ccomponent number="456" numbers={[2,3,5,6]} />
         <Afcomponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>

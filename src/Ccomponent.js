@@ -4,7 +4,7 @@ export default class Ccomponent extends Component {
     render() {
         return (
             <div>
-                <h1>Class component</h1>
+                <h1>Class props number: {this.props.number} & numbers: {this.props.numbers.join(',')}</h1>
             </div>
         )
     }
