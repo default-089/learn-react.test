@@ -3,12 +3,14 @@ import './App.css';
 import Fcomponent from './Fcomponent';
 import Ccomponent from './Ccomponent';
 import Afcomponent from './Afcomponent';
+import Counter from './Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Fcomponent name="Andrey" />
+        <Counter />
         <Ccomponent number="456" numbers={[2,3,5,6]} />
         <Afcomponent />
         <img src={logo} className="App-logo" alt="logo" />
