@@ -6,6 +6,7 @@ import Counter from './Counter';
 import NewForm from './NameForm';
 import FlavorForm from './FlavorForm';
 import Reservation from './Reservation';
+import ToDoList from './ToDoList';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <NewForm />
         <Counter />
         <FlavorForm />
+        <ToDoList />
         <Reservation />
         <Ccomponent number="456" numbers={[2,3,5,6]} />
         <Afcomponent />
