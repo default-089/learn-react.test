@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button, Box, Typography } from '@material-ui/core';
 
 export default class Counter extends Component {
   constructor(props) {
@@ -29,12 +30,12 @@ export default class Counter extends Component {
   
   render() {
     return (
-      <div>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
-        <button onClick={this.reset}>reset</button>
-        <h3>Счетчик: {this.state.count}</h3>
-      </div>
+      <Box my={4}>
+        <Button variant="contained" color="primary" onClick={this.increment}>+</Button>
+        <Button variant="contained" color="secondary" onClick={this.decrement}>-</Button>
+        <Button variant="contained" onClick={this.reset}>reset</Button>
+        <Typography variant="h3">Счетчик: {this.state.count}</Typography>
+      </Box>
     )
   }
 }
