@@ -7,11 +7,13 @@ import NewForm from './NameForm';
 import FlavorForm from './FlavorForm';
 import Reservation from './Reservation';
 import ToDoList from './ToDoList';
+import TestApi from './TestApi';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <TestApi />
         <NewForm />
         <Counter />
         <FlavorForm />
